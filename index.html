@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+
+<head>
+    <title>Gamxyb</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js">
+    </script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js">
+    </script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js">
+    </script>
+    <script src="js/init.js">
+    </script>
+</head>
+
+<body>
+    <form name="forma">
+        <header>
+            <h1>Gamexyb</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="">Juegos</a></li>
+                <li><a href="pagina2.html">Contactanos</a></li>
+                <li><a href="pagina3.html">Reservaciones</a></li>
+                <li><button type="button" class="button-primary" name="terminarSesión">Terminar Sesion</button></li>
+            </ul>
+        </nav>
+        <div id="lista-10" class="container">
+            <h2 id="encabezado" class="encabezado">Juegos Mas Vendidos</h2>
+            <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/halo.jpg" class="u-full-with">
+                        <div class="info-card">
+                            <h4>Halo Infinite</h4>
+                            <p>Shooter</p>
+                            <p class="precio">$1500</p>
+                            <a href="pagina3.html" class="u-full-width button-primary button input">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/minecraft.jpg" class="u-full-with">
+                        <div class="info-card">
+                            <h4>Minecraft</h4>
+                            <p>Supervivencia</p>
+                            <p class="precio">$800</p>
+                            <a href="pagina3.html" class="u-full-width button-primary button input">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/r2.jpg" class="u-full-with">
+                        <div class="info-card">
+                            <h4>Red Dead Redemption</h4>
+                            <p>Sandbox</p>
+                            <p class="precio">$600</p>
+                            <a href="pagina3.html" class="u-full-width button-primary button input">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/tes5.jpg" class="u-full-with">
+                        <div class="info-card">
+                            <h4>Skyrim</h4>
+                            <p>RPG</p>
+                            <p class="precio">$800</p>
+                            <a href="pagina3.html" class="u-full-width button-primary button input">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/sonic.jpg" class="u-full-with">
+                        <div class="info-card">
+                            <h4>Sonic Colours</h4>
+                            <p>Aventuras</p>
+                            <p class="precio">$1000</p>
+                            <a href="pagina3.html" class="u-full-width button-primary button input">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/samsh.webp" class="u-full-with">
+                        <div class="info-card">
+                            <h4>Super Smash Bros.</h4>
+                            <p>Luchas</p>
+                            <p class="precio">$1500</p>
+                            <a href="" class="u-full-width button-primary button input">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/crash.jpg" class="u-full-with">
+                        <div class="info-card">
+                            <h4>Crash 4</h4>
+                            <p>Aventuras</p>
+                            <p class="precio">$900</p>
+                            <a href="pagina3.html" class="u-full-width button-primary button input">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/db.jpg" class="u-full-with">
+                        <div class="info-card">
+                            <h4>DB Fighterz</h4>
+                            <p>Luchas</p>
+                            <p class="precio">$1300</p>
+                            <a href="pagina3.html" class="u-full-width button-primary button input">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/dk.jpg" class="u-full-with">
+                        <div class="info-card">
+                            <h4>Dark Souls 3</h4>
+                            <p>Accion</p>
+                            <p class="precio">$750</p>
+                            <a href="pagina3.html" class="u-full-width button-primary button input">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer id="footer" class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="four columns">
+                        <nav class="menu"><a href="">@Heber Matias Cartagena</a></nav>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </form>
+    <script type="module" src="js/CtrlSesion.js">
+    </script>
+</body>
+
+</html>

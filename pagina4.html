@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+
+<head>
+    <title>Contactanos</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js">
+    </script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js">
+    </script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js">
+    </script>
+    <script src="js/init.js">
+    </script>
+</head>
+
+<body class="dif">
+    <form name="forma">
+        <header>
+            <h1>Reservacion Nueva</h1>
+            <nav>
+                <ul>
+                    <li><a href="pagina3.html">Cancelar</a></li>
+                    <button class="button-primary" type="submit">Guardar</button>
+                </ul>
+            </nav>
+
+        </header>
+        <p>
+            <label>
+                Nombre Juego
+                <input name="matricula" type="text" required>
+            </label>
+        </p>
+        <p>
+            <label>
+                Tipo Juego  
+                <input name="nombre" type="text" required>
+            </label>
+        </p>
+        <p>
+            <label>
+                Teléfono    
+                <input name="telefono" type="text" required>
+            </label>
+        </p>
+        <p>
+            <label>
+                Direccion      
+                <input name="grupo" type="text" required>
+            </label>
+        </p>
+        <p>
+            <label>
+                Fecha       
+                <input name="fecha" type="date" required>
+            </label>
+        </p>
+    </form>
+    <script type="module" src="js/CtrlReservacionNueva.js">
+    </script>
+</body>
+
+</html>
