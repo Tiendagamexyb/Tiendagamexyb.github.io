@@ -7,6 +7,23 @@
     background-color: green;
 }
 
+legend,
+p label {
+  display: block;
+  font-weight: bold;
+  font-size: 0.7rem;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+
+p label>* {
+  display: block;
+  font-weight: normal;
+  font-size: 1rem;
+  box-sizing: border-box;
+  width: 100%;
+}
 
 ul li{
     text-align: center;
