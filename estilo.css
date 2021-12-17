@@ -21,6 +21,8 @@ p label {
   margin: 1rem;
   font-size: small;
   text-align: center;
+}
+.mifooter p{
   color: white;
 }
 
