@@ -16,6 +16,12 @@ p label {
   margin: 0 auto;
   padding: 0.5rem;
 }
+.mifooter{
+  display: block;
+  margin: 1rem;
+  font-size: small;
+  text-align: center;
+}
 
 p label>* {
   display: block;
