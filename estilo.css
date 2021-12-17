@@ -21,6 +21,7 @@ p label {
   margin: 1rem;
   font-size: small;
   text-align: center;
+  color: white;
 }
 
 p label>* {
